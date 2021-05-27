@@ -16,7 +16,7 @@ export const Navbar = () => {
         <Link href='/'>
           <a className='inline-flex items-center p-2 mr-4 '>
           <Image
-              src="/../public/83179936.jpg"
+              src="/83179936.jpg"
               alt="Picture of the author"
               width={40}
               height={40}
