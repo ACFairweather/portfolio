@@ -3,8 +3,6 @@ import Link from 'next/link';
 import { useState } from 'react';
 import Image from 'next/image'
 
-const image = require('./../public/83179936.jpg');
-
 export const Navbar = () => {
   const [active, setActive] = useState(false);
 
@@ -18,7 +16,7 @@ export const Navbar = () => {
         <Link href='/'>
           <a className='inline-flex items-center p-2 mr-4 '>
           <Image
-              src='image'
+              src="/../public/83179936.jpg"
               alt="Picture of the author"
               width={40}
               height={40}
