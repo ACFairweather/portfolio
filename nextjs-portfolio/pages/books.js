@@ -1,16 +1,19 @@
 import Link from "next/link";
+import { Component } from "react";
+import BookTable from '../components/BookTable';
+import { Navbar } from '../components/Navbar';
 
-export default books;
-
-function books() {
+function MyApp({}) {
     return (
-        <>
-        <h1>BookList</h1> 
-        <h2>
-            <Link href="/">
-                <a>Home</a>
-            </Link>
-        </h2>
-        </>
+      <>
+        <Navbar/>
+        <BookTable/>
+         
+      </>
     )
-}
+    
+  }
+  
+  export default MyApp;
+
+
